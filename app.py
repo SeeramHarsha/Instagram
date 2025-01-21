@@ -9,6 +9,10 @@ db = client['login_db']
 users_collection = db['users']
 
 # Home route
+@app.route('/static/<path:path>')
+def serve_static(path):
+    return send_from_directory('static', path)
+
 @app.route('/')
 def home():
     return render_template('reg.html')  # Ensure `reg.html` exists in the templates folder
