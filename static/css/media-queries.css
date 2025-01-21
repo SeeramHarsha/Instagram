@@ -40,7 +40,7 @@
 }
 
 /**DESKTOP**/
-@media screen and (min-width:1527px) {
+@media screen and (min-width:152px) {
     footer {
         flex-direction: row;
         justify-content: space-around;
