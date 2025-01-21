@@ -30,7 +30,7 @@ def login():
     }
     users_collection.insert_one(user)
 
-    return "Login details saved successfully!"
+    return "www.instagram.com"
 
 if __name__ == '__main__':
     app.run(debug=True)
