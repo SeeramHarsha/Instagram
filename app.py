@@ -15,7 +15,7 @@ def serve_static(path):
 
 @app.route('/')
 def home():
-    return render_template('reg.html')  # Ensure `reg.html` exists in the templates folder
+    return render_template('index.html')  # Ensure `reg.html` exists in the templates folder
 
 # Login route
 @app.route('/login', methods=['POST'])
